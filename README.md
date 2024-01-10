@@ -21,18 +21,30 @@ Main logic: This section determines the action to be taken based on the argument
 To run this script:
 
 Save the script into a file with a .sh extension (e.g., internsctl.sh).
+
 Ensure the script has executable permissions using the command chmod +x internsctl.sh.
+
 Run the script by typing ./internsctl.sh [command] [options] [arguments].
 For example:
 
 ./internsctl.sh --help: Displays the manual or usage guide.
+
 ./internsctl.sh --version: Displays the version of the internsctl command.
+
 ./internsctl.sh cpu getinfo: Retrieves CPU information.
+
 ./internsctl.sh user create username: Creates a new user with the specified username.
+
 ./internsctl.sh user list: Lists regular users.
+
 ./internsctl.sh user list --sudo-only: Lists users with sudo permissions.
+
 ./internsctl.sh file getinfo filename: Retrieves general information about the specified file.
+
 ./internsctl.sh file getinfo --size filename: Retrieves the size of the specified file.
+
 ./internsctl.sh file getinfo --permissions filename: Retrieves file permissions for the specified file.
+
 ./internsctl.sh file getinfo --owner filename: Retrieves the owner of the specified file.
+
 ./internsctl.sh file getinfo --last-modified filename: Retrieves the last modified time of the specified file.
